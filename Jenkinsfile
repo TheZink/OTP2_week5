@@ -10,7 +10,7 @@ pipeline {
         SONARQUBE_SERVER = 'SonarQubeServer'  // The name of the SonarQube server configured in Jenkins
         SONAR_TOKEN = 'squ_1337d9ec55b3bc9d187d61a502c36cc31b7a7b80' // Store the token securely
         DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
-        DOCKERHUB_REPO = 'ilkkasin/OTP2_week5'
+        DOCKERHUB_REPO = 'ilkkasin/otp2_week5'
         DOCKER_IMAGE_TAG = 'latest'
 
 
@@ -19,7 +19,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git branch: 'master', url: 'https://github.com/TheZink/OTP2_week5.git'
+                git branch: 'master', url: 'https://github.com/TheZink/otp2_week5.git'
             }
         }
 
