@@ -12,8 +12,6 @@ pipeline {
         DOCKERHUB_CREDENTIALS_ID = 'Docker_Hub'
         DOCKERHUB_REPO = 'ilkkasin/otp2_week5'
         DOCKER_IMAGE_TAG = 'latest'
-
-
     }
 
     stages {
